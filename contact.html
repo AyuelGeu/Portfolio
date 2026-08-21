@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Ayuel Geu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-mark">Ayuel<span>.</span>Geu</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+          <li><a href="blog.html" class="nav-link">BLOG</a></li>
+          <li><a href="contact.html" class="nav-link active">CONTACT</a></li>
+        </ul>
+      </nav>
+      <span class="nav-status"><span class="nav-status-dot"></span>open to work</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="container page-header">
+      <p class="eyebrow">Contact</p>
+      <h1 class="page-title">Get in touch</h1>
+      <p class="page-lede">
+        Reach out about a role, a project, or anything else — or email directly at
+        <a href="mailto:hello@ayuelgeu.dev">hello@ayuelgeu.dev</a>.
+      </p>
+    </section>
+
+    <section class="container section section-border-top">
+      <div class="grid grid-2">
+        <form style="max-width: 440px;">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+
+          <!-- <p class="form-note">
+            This form isn't wired to send anywhere yet — connect it to a backend or a
+            service like Formspree to receive messages.
+          </p> -->
+        </form>
+
+        <div>
+          <p class="eyebrow">Coordinates</p>
+          <div class="tag-row tag-stack">
+            <span class="tag">email — youngraj211@gmail.com</span>
+            <span class="tag">github — github.com/</span>
+            <span class="tag">linkedin — linkedin.com/</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Ayuel Geu — built with HTML &amp; CSS</span>
+      <ul class="footer-links">
+        <li><a href="youngraj211@gmail.com">email</a></li>
+        <li><a href="https://github.com/AyuelGeu" target="_blank" rel="noreferrer">github</a></li>
+        <li><a href="https://linkedin.com/in/marol-ayuel?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">linkedin</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
